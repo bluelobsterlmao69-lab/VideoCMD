@@ -49,11 +49,7 @@ VideoCMD.bat
 
 ## 🎮 Example
 
-VideoCMD was tested with a **60 FPS Geometry Dash recording** and an SFS rocket being sent directly into the Sun.
-
-Both successfully rendered in the terminal.
-
-🚀 + ☀️ = 💀
+VideoCMD was tested with a **60 FPS Geometry Dash recording**, so yes
 
 ## ⚙️ Current Settings
 
@@ -74,12 +70,6 @@ Both successfully rendered in the terminal.
 VideoCMD is a fun terminal video renderer rather than a replacement for a normal video player.
 
 Expect low resolution and some visual weirdness.
-
-## 📜 License
-
-Add your preferred license here.
-
----
 
 ### Why?
 
