@@ -14,9 +14,10 @@ Because apparently VLC wasn't enough. 💀
 * 🎞️ Frame-by-frame terminal playback
 * 🖥️ Runs inside Windows CMD
 * ⚙️ Uses FFmpeg for video conversion
-* 🎨 Experimental 16-color rendering
+* 🎨 Grayscale because color is too far
 * 📂 Built-in file picker
 * 🧹 Automatic temporary-file cleanup
+* 🔇 No sound...
 
 ## 📦 Requirements
 
