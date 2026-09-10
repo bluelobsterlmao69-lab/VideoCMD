@@ -5,7 +5,7 @@
 
 VideoCMD converts short videos into low-resolution frames and renders them directly inside the terminal.
 
-Because apparently VLC wasn't enough. 💀
+Because apparently, VLC wasn't great enough
 
 ## ✨ Features
 
@@ -14,7 +14,7 @@ Because apparently VLC wasn't enough. 💀
 * 🎞️ Frame-by-frame terminal playback
 * 🖥️ Runs inside Windows CMD
 * ⚙️ Uses FFmpeg for video conversion
-* 🎨 256 color
+* 🎨 256 ANSI color
 * 📂 Built-in file picker
 * 🧹 Automatic temporary-file cleanup
 * 🔇 No sound...
@@ -54,7 +54,7 @@ VideoCMD was tested with a *60 FPS Geometry Dash recording*, so yeah, it's great
 | Input FPS            |                   Any |
 | Playback FPS         |                     8 |
 | Resolution           |               50 × 25 |
-| Color                |        256 ASCI Color |
+| Color                |        256 ANSI Color |
 | Renderer             |            PowerShell |
 | Conversion           |                FFmpeg |
 
