@@ -14,7 +14,7 @@ Because apparently VLC wasn't enough. 💀
 * 🎞️ Frame-by-frame terminal playback
 * 🖥️ Runs inside Windows CMD
 * ⚙️ Uses FFmpeg for video conversion
-* 🎨 Grayscale but if a color matches with a 16-bit color, it works
+* 🎨 256 color
 * 📂 Built-in file picker
 * 🧹 Automatic temporary-file cleanup
 * 🔇 No sound...
@@ -30,37 +30,31 @@ FFmpeg must be installed and available in your system `PATH`.
 
 Check if FFmpeg is working by opening CMD and running:
 
-```bat
 ffmpeg -version
-```
 
 ## 🚀 Installation
 
 1. Download the repository.
 2. Put `VideoCMD.bat` and `VideoCMD.ps1` in the same folder.
 3. Make sure FFmpeg is installed and available through PATH.
-4. Run:
-
-```text
-VideoCMD.bat
-```
+4. Run 'VideoCMD.bat'
 
 5. Select a video.
 6. Watch it play in CMD. 🎬
 
 ## 🎮 Example
 
-VideoCMD was tested with a **60 FPS Geometry Dash recording**, so yes
+VideoCMD was tested with a *60 FPS Geometry Dash recording*, so yeah, it's great.
 
 ## ⚙️ Current Settings
 
 | Setting              |                 Value |
 | -------------------- | --------------------: |
-| Maximum video length |            10 seconds |
+| Maximum video length |              1 minute |
 | Input FPS            |                   Any |
 | Playback FPS         |                     8 |
 | Resolution           |               50 × 25 |
-| Color                | Experimental 16-color |
+| Color                |        256 ASCI Color |
 | Renderer             |            PowerShell |
 | Conversion           |                FFmpeg |
 
@@ -73,6 +67,8 @@ VideoCMD is a fun terminal video renderer rather than a replacement for a normal
 Expect low resolution and some visual weirdness.
 
 ### Why?
+
+because, yeah.
 
 Because we could.
 
