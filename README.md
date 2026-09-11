@@ -52,7 +52,7 @@ VideoCMD was tested with a *60 FPS Geometry Dash recording*, so yeah, it's great
 | -------------------- | --------------------: |
 | Maximum video length |              1 minute |
 | Input FPS            |                   Any |
-| Playback FPS         |                     8 |
+| Playback FPS         |                   ~30 |
 | Resolution           |               50 × 25 |
 | Color                |        256 ANSI Color |
 | Renderer             |            PowerShell |
