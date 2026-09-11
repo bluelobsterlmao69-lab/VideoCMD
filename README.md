@@ -69,7 +69,3 @@ Expect low resolution and some visual weirdness.
 ### Why?
 
 because, yeah.
-
-Because we could.
-
-🎬💻🔥
