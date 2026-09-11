@@ -10,7 +10,7 @@ Because apparently, VLC wasn't great enough
 ## ✨ Features
 
 * 🎥 MP4, GIF, AVI, MOV, MKV, and WEBM support
-* ⏱️ Videos can be as long as possible
+* ⏱️ Videos can be 1 minute, but plays the video as it is then cuts it off
 * 🎞️ Frame-by-frame terminal playback
 * 🖥️ Runs inside Windows CMD
 * ⚙️ Uses FFmpeg for video conversion
@@ -50,7 +50,7 @@ VideoCMD was tested with a *60 FPS Geometry Dash recording*, so yeah, it's great
 
 | Setting              |                 Value |
 | -------------------- | --------------------: |
-| Maximum video length |Unlimited as long as PC survives |
+| Maximum video length |              1 minute |
 | Input FPS            |                   Any |
 | Playback FPS         |                   ~30 |
 | Resolution           |               50 × 25 |
