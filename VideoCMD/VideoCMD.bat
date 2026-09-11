@@ -3,7 +3,7 @@ setlocal EnableExtensions DisableDelayedExpansion
 
 chcp 65001 >nul
 
-title VideoCMD - 16 Color
+title VideoCMD
 mode con: cols=110 lines=35
 cls
 
@@ -59,16 +59,16 @@ echo ==========================================
 echo               CONVERTING
 echo ==========================================
 echo.
-echo Maximum: 10 seconds
-echo FPS: 8
+echo Maximum: 1 minute
+echo FPS: 15
 echo Resolution: 50 x 25
-echo Colors: 16
+echo Colors: 256
 echo.
 
 ffmpeg.exe -hide_banner -loglevel error -y ^
 -i "%INPUT%" ^
--t 10 ^
--vf "fps=8,scale=50:25:force_original_aspect_ratio=decrease,pad=50:25:(ow-iw)/2:(oh-ih)/2" ^
+-t 60 ^
+-vf "fps=15,scale=50:25:force_original_aspect_ratio=decrease,pad=50:25:(ow-iw)/2:(oh-ih)/2" ^
 "%WORK%\frame_%%04d.png"
 
 if errorlevel 1 (
@@ -96,7 +96,7 @@ echo ==========================================
 echo.
 echo Frames created: %FRAMES%
 echo.
-echo Starting 16-color player...
+echo Starting ANSI 256-color player...
 echo.
 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0VideoCMD.ps1" "%WORK%"

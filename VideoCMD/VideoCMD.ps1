@@ -259,7 +259,7 @@ foreach ($file in $frames) {
 
     $bmp.Dispose()
 
-    Start-Sleep -Milliseconds 100
+    Start-Sleep -Milliseconds 10
 }
 
 [Console]::CursorVisible = $true
